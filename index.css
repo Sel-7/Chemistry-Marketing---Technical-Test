@@ -55,9 +55,7 @@ p {
 }
 
 .a-hero-btn {
-    display: flex;
     width: 400px;
-    justify-content: space-around;
     margin-bottom: 30px;
 }
 
