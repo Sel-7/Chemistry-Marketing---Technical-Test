@@ -103,6 +103,10 @@ p {
     padding-top: 100px;
 }
 
+.pad {
+    padding: 80px 0;
+}
+
 .btn {
     border-radius: 25px;
     padding: 10px 50px;
@@ -143,7 +147,6 @@ p {
 }
 
 .a-templates {
-    position: relative;
     padding: 30px 30px 30px 0;
 }
 
@@ -253,20 +256,19 @@ p {
 /* THEME */
 
 
+
 .a-container {
     background-color: #06216e;
     background: linear-gradient(to bottom right, #06216e, #2056f5);
     color: whitesmoke;
 }
 
-.dark {
-    background-color: #182639;
-}
 
-.light {
-    background-color: #ffffff;
-    color: #000e00;
-}
+
+
+
+
+
 
 .b-triangle {
     fill: #1949d3;
@@ -282,11 +284,13 @@ p {
 
 .c-container {
     background-color: #f4f8fc;
+    padding-bottom: 120px;
 }
 
-.gradient-layer {
-    position: relative;
+.pad-bottom {
+    padding-bottom: 30px;
 }
+
 
 .c-imgs {
     position: relative;
@@ -323,15 +327,15 @@ p {
 }
 
 .c-example-data {
+    position: absolute;
     font-size: 0.75em;
-   position: absolute;
-   padding: 5px 10px;
-   width: 200px;
-   height: 75px;
-   top: 150px;
-   right: 0; 
-   background-color: whitesmoke;
-   box-shadow: 0px 0px 10px rgb(0,0,0, 0.5);
+    padding: 5px 10px;
+    width: 200px;
+    height: 75px;
+    top: 150px;
+    right: 0; 
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px rgb(0,0,0, 0.5);
 }
 
 .c-data-heading {
@@ -347,9 +351,7 @@ p {
     font-size: 1em;
 }
 
-.teal {
-    color: #01b5e2;
-}
+
 
 .c-product-pitch {
     width: 450px;
@@ -357,6 +359,118 @@ p {
 
 .c-heading {
     font-size: 2.5em;
+}
+
+.d-container {
+    text-align: center;
+    background-color: #0e2235;
+    
+}
+
+.d-header {
+    color: whitesmoke;
+    font-size: 2.4em;
+}
+
+.d-carousel-btns {
+    height: 130px;
+    width: 960px;
+    display: block;
+    margin: 30px auto;
+}
+
+.d-carousel-btn {
+    font-family: inherit;
+    margin:10px;
+    border: none;
+    background: none;
+    font-size: 0.8em;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.d-carousel-content {
+    width: 540px;
+    text-align: left;
+    padding: 20px;
+}
+
+.carousel-width {
+    width: 1080px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 0px auto;
+}
+
+.d-img {
+    width: 540px;
+}
+
+.d-img {
+    width: 540px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 30px 30px 30px 10px;   
+    background-image: url("https://media.istockphoto.com/id/2187465701/photo/a-successful-businesswoman-is-using-a-laptop-and-working-in-the-office.jpg?s=612x612&w=0&k=20&c=qWWdbFydb4gUN4FUHDynPHiXfKXMy08MDqHf5m20gr0=");
+    object-fit: cover;
+
+}
+
+.relative {
+    position: relative;
+}
+
+.d-img-logo {
+    position: absolute;
+    width: 150px;
+    top: 340px;
+    left: 310px;
+}
+
+.d-img-text {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    font-weight: 700;
+    color: whitesmoke;
+    background: linear-gradient(to right, #fe942c 10%, #f12883, #8a3cf2);
+    padding: 7px 14px;
+    border-radius: 15px 15px 0 15px;
+}
+
+
+
+.carousel-header {
+    color: #2056f5;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.carousel-h3 {
+    font-size: 2em;
+    margin: 15px 0;
+    line-height: 1em;
+}
+
+.carousel-p {
+    margin-bottom: 25px;
+}
+
+.carousel-p span {
+    font-weight: 700;
+}
+
+.dark {
+    background-color: #182639;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #000e00;
+}
+
+.teal {
+    color: #01b5e2;
 }
 
 .blue {
