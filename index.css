@@ -76,7 +76,7 @@ p {
 
 
 .justify-se {
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .justify-c {
@@ -123,6 +123,10 @@ p {
 
 .none {
     list-style-type: none;
+}
+
+.relative {
+    position: relative;
 }
 
 .logo {
@@ -182,7 +186,32 @@ p {
     padding-bottom: 50px;
 }
 
+.c-small-logo {
+    width: 30px;
+}
 
+.c-data-heading {
+    gap: 5px;
+    
+}
+
+.c-data {
+    padding: 5px 2px;
+}
+
+.c-data-number {
+    font-size: 1em;
+}
+
+
+
+.c-product-pitch {
+    width: 450px;
+}
+
+.c-heading {
+    font-size: 2.5em;
+}
 
 /* STATE */
 
@@ -322,10 +351,6 @@ p {
     left:0;
 }
 
-.c-small-logo {
-    width: 30px;
-}
-
 .c-example-data {
     position: absolute;
     font-size: 0.75em;
@@ -338,33 +363,10 @@ p {
     box-shadow: 0px 0px 10px rgb(0,0,0, 0.5);
 }
 
-.c-data-heading {
-    gap: 5px;
-    
-}
-
-.c-data {
-    padding: 5px 2px;
-}
-
-.c-data-number {
-    font-size: 1em;
-}
-
-
-
-.c-product-pitch {
-    width: 450px;
-}
-
-.c-heading {
-    font-size: 2.5em;
-}
 
 .d-container {
     text-align: center;
-    background-color: #0e2235;
-    
+    background-color: #0e2235; 
 }
 
 .d-header {
@@ -392,7 +394,7 @@ p {
 .d-carousel-content {
     width: 540px;
     text-align: left;
-    padding: 20px;
+    padding: 40px 30px;
 }
 
 .carousel-width {
@@ -416,10 +418,6 @@ p {
 
 }
 
-.relative {
-    position: relative;
-}
-
 .d-img-logo {
     position: absolute;
     width: 150px;
@@ -438,6 +436,50 @@ p {
     border-radius: 15px 15px 0 15px;
 }
 
+.e-container {
+    background-color: #f4f8fc;
+}
+
+.e-header {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2.2em;
+}
+
+.e-card {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.e-angle-right {
+    height: 30px;
+}
+
+.e-card-stat {
+    width: 100%;
+}
+
+.e-card-logo {
+    height: 60px;
+}
+
+.e-card-quote {
+    height: 200px;
+}
+
+.blue-bold {
+    color: #2056f5;
+    font-weight: 700;
+    font-size: 3em;
+}
 
 
 .carousel-header {
