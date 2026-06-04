@@ -24,13 +24,10 @@ p {
 /* LAYOUT */
 
 .a-nav-options {
-    display: flex;
-    justify-content: space-between;
     gap: 30px;
 }
 
 .a-navigation-bar {
-    justify-content: space-between;
     padding: 30px 0px;
 }
 
@@ -39,11 +36,6 @@ p {
     margin: 0 auto;
 }
 
-.a-hero,
-.a-navigation-bar {
-    display: flex;
-    align-items: center;
-}
 
 .a-img-award,
 .a-award-wrapper {
@@ -62,10 +54,6 @@ p {
     padding-right: 75px;
 }
 
-.a-award-container {
-    display: flex;
-}
-
 .a-hero-btn {
     display: flex;
     width: 400px;
@@ -75,6 +63,31 @@ p {
 
 
 /* MODULE */
+
+.flex {
+    display: flex;
+}
+
+.justify-sb {
+    justify-content: space-between;
+}
+
+.justify-sa {
+    justify-content: space-around;
+}
+
+
+.justify-se {
+    justify-content: space-around;
+}
+
+.justify-c {
+    justify-content: center;
+}
+
+.align-c {
+    align-items: center;
+}
 
 .pad-left {
     padding-left: 0px;
@@ -88,7 +101,7 @@ p {
     margin-top: 50px;
 }
 
-.pad{
+.pad-t-100{
     padding-top: 100px;
 }
 
@@ -165,8 +178,6 @@ p {
 }
 
 .b-imgs {
-    display: flex;
-    justify-content: space-evenly;
     padding-bottom: 50px;
 }
 
@@ -259,6 +270,9 @@ p {
     color: #000e00;
 }
 
+.b-triangle {
+    fill: #1949d3;
+}
 
 .b-gradient {
     background-color: #06216e;
@@ -270,12 +284,6 @@ p {
 
 .c-container {
     background-color: #f4f8fc;
-}
-
-
-.flex-image-left {
-    display: flex;
-    align-items: center;
 }
 
 .gradient-layer {
@@ -329,15 +337,11 @@ p {
 }
 
 .c-data-heading {
-    display: flex;
-    align-items: center;
     gap: 5px;
     
 }
 
 .c-data {
-    display: flex;
-    justify-content: space-between;
     padding: 5px 2px;
 }
 
