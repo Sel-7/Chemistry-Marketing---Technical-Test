@@ -6,40 +6,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <title>Notify</title> 
 </head>
 <body>
-    <div class="a-container">
+    <div class=" a-container">
         <header>
-            <nav>
-                <ul class="a-navigation-bar flex align-c justify-sb width none pad-left">
-                    <li class="none logo bold"><a href="#">Notify</a></li>
-                    <div class="a-nav-options flex justify-sb">
-                        <li class="none"><a class="underline" href="#">Solutions <span class="small-text"> ></span></a></li>
-                        
-                        <li class="none"><a class="underline" href="#">Sectors <span class="small-text"> ></span></a></li>
-                        <li class="none"><a class="underline" href="#">Resources <span class="small-text"> ></span></a></li>
-                        <li class="none"><a class="underline" href="#">About us <span class="small-text"> ></span></a></li>
-                        <li class="none"><a class="underline" href="#">Pricing</a></li>
-                        <li class="none"><a class="dark btn underline-btn bold"href="#">Try for free</a></li>
-                        <li class="none"><a class="light btn underline-btn-dark bold" href="#">Book a demo</a></li>
-                    </div>
-                </ul>
+            <nav class="navbar navbar-expand-lg text-center">  
+                <div class="container">
+                    <a class="logo" href="#">Notify</a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navitems"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse" id="#navitems">
+                            <ul class="a-nav-options flex justify-sb align-c ms-auto">
+                            <li class="none"><a class="underline" href="#">Solutions <span class="small-text"><i class="fa-solid fa-caret-right"></i></span></a></li>
+                            
+                            <li class="none"><a class="underline" href="#">Sectors <span class="small-text"><i class="fa-solid fa-caret-right"></i></span></a></li>
+                            <li class="none"><a class="underline" href="#">Resources <span class="small-text"><i class="fa-solid fa-caret-right"></i></span></a></li>
+                            <li class="none"><a class="underline" href="#">About us <span class="small-text"><i class="fa-solid fa-caret-right"></i></span></a></li>
+                            <li class="none"><a class="underline" href="#">Pricing</a></li>
+                            <li class="none"><a class="dark btn underline-btn bold text-light"href="#">Try for free</a></li>
+                            <li class="none"><a class="light btn underline-btn-dark bold" href="#">Book a demo</a></li>
+
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+
             </nav>
         </header>
 
-        <main class="a-hero flex align-c width">
+        <main class="container a-hero flex align-c width ">
             <div class="a-hero-text-container">
                 <h1 class="bold">A safety management platform for proactive risk management</h1>
-                <ul>
+                <ul class="pt-5">
                     <li>Reduce RIDDORs & LTAs by as much as 40%</li>
                     <li>Ensure HSE Compliance, without complexity</li>
                     <li>Reduce admin time with AI-powered analysis</li>
                 </ul>
 
                 <div class="a-hero-btn flex justify-sa mt">
-                    <p><a class="dark btn underline-btn bold" href="#">Take a tour</a></p>
+                    <p><a class="dark btn underline-btn bold text-light" href="#">Take a tour</a></p>
                     <p><a class="light btn underline-btn-dark bold" href="#">See Solutions</a></p>
                 </div>
             
