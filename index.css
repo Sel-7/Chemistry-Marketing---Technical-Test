@@ -168,7 +168,8 @@ p {
 
 .a-template-desktop,
 .a-template-mobile {
-    border: 5px solid rgb(255,255,255, 0.5);
+    border: 8px solid rgb(255,255,255, 0.5);
+    outline: 2px solid white;
 }
 
 .border-radius {
@@ -468,23 +469,140 @@ p {
 
 
 .f-image-left {
-    border-radius: 60px 60px 0 60px;
-    width: 400px;
-    height: 300px;
+    border-radius: 100px 100px 0 100px;
+    width: 600px;
+    height: 400px;
     margin: 40px 40px 20px 0;
+    padding: 0 0 30px 30px;
 }
 
-.f-image-right {
+.f-gradient-bg {
     border-radius: 0px 60px 60px 60px;
     background: linear-gradient(to right, #1947d0, #082375);
-    width: 400px;
+    width: 600px;
     padding-top: 30px;
-    height: 270px;
+    height: 300px;
     margin: 40px 0 20px 40px;
 }
 
+.position-absolute-center {
+    position: absolute;
+    bottom: 0;
+    left: 220px;
+}
+
+.position-absolute-center-worker {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.position-absolute-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(247, 249, 255, 0.75);
+    border: 1px solid white;
+    font-size: 1.75rem;
+    width: 350px;
+}
+
+.position-absolute-dashboard {
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    box-shadow: 0px 0px 4px black;
+}
+
+.position-absolute-stats {
+    width: 480px;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    background-color: rgb(216, 223, 234, 0.9);
+    
+}
+
+.position-absolute-ticket {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+
+    width: 300px;
+    height: 100px;
+    object-fit: none;
+
+    outline: 1px solid white;
+    border: 10px solid rgb(255,255,255, 0.5);
+}
+
+.near-miss-text {
+    width: 250px;
+}
+
+.near-miss-small {
+    font-size: 0.8em;
+}
+
+.position-absolute-text {
+    position: absolute;
+    width: 300px;
+    top: 10px;
+    left: 0px;
+    background-color: whitesmoke;
+    outline: 1px solid white;
+    border: 5px solid rgb(255,255,255, 0.5);
+    background-clip: padding-box;
+}
+
+.small-title {
+    font-size: 0.8rem;
+}
+
+.stats-bold {
+    font-size: 2em;
+}
+
+.extra-bold {
+    font-weight: 900;
+    font-size: 5rem;
+    padding-bottom: 0px;
+}
+
+.dashboard-border {
+    border: 10px solid rgb(255,255,255, 0.5);
+    border-bottom: none;
+    outline: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0px -1px 4px black;
+}
+
+.text-right,
+.text-left {
+    position: absolute;
+    background-color: #01b5e2;;
+    width: 200px;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.text-left {
+    top: 90px;
+    left: 40px;
+}
+
+.text-right {
+    top: 130px;
+    right: 40px;
+}
+
+
+
 .f-text {
-    width: 450px;
+    height: 340px;
 }
 
 .dark {
