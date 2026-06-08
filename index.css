@@ -13,7 +13,6 @@ a{
 }
 
 h1 {
-    font-size: 4em;
     margin: 0;
 }
 
@@ -21,10 +20,6 @@ p {
     margin: 0;
 }
 
-footer {
-    background-color: #01b5e2;
-    color: whitesmoke;
-}
 
 /* LAYOUT */
 
@@ -32,21 +27,10 @@ footer {
     gap: 30px;
 }
 
-.a-navigation-bar {
-    padding: 30px 0px;
-}
-
-.width {
-    width: 1280px;
-    margin: 0 auto;
-}
-
-
 .a-img-award,
 .a-award-wrapper {
     margin-right: 10px;
     width: 100px;
-    text-align: center;
     font-size: 0.7em;
     margin-top: 0px;
 }
@@ -64,94 +48,13 @@ footer {
     margin-bottom: 30px;
 }
 
-
-/* MODULE */
-
-.flex {
-    display: flex;
-}
-
-.column {
-    flex-direction: column;
-}
-
-.justify-sb {
-    justify-content: space-between;
-}
-
-.justify-sa {
-    justify-content: space-around;
-}
-
-
-.justify-se {
-    justify-content: space-evenly;
-}
-
-.justify-c {
-    justify-content: center;
-}
-
-.align-c {
-    align-items: center;
-}
-
-.pad-left {
-    padding-left: 0px;
-}
-
-.mt-zero {
-    margin-top: 0;
-}
-
-.mt {
-    margin-top: 50px;
-}
-
-.pad-t-100{
-    padding-top: 100px;
-}
-
-.pad {
-    padding: 80px 0;
-}
-
-.btn {
-    border-radius: 25px;
-    padding: 10px 50px;
-}
-
-.small-text{
-    font-size: 10px;
-    padding: 0px 10px;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.none {
-    list-style-type: none;
-}
-
-.relative {
-    position: relative;
-}
-
-.logo {
-    font-weight: 700;
-    font-size: 4em;
-}
-
 .a-template-text {
     margin: 0;
-    background-color: #01b5e2;
     border-radius: 20px 20px 20px 0;
     position: absolute;
     padding: 10px 22px;
     top: 0px;
     right: 10px;
-    font-weight: 700;
 }
 
 .a-template-desktop {
@@ -177,15 +80,14 @@ footer {
     outline: 2px solid white;
 }
 
-.border-radius {
-    border-radius: 15px;
-}
+
+/*  */
+
 
 .b-heading {
     width: 1048px;
     font-size: 2.5em;
     margin: 75px auto 100px;
-    text-align: center;
 }
 
 .b-img-height {
@@ -195,6 +97,12 @@ footer {
 .b-imgs {
     padding-bottom: 50px;
 }
+
+
+
+/*  */
+
+
 
 .c-small-logo {
     width: 30px;
@@ -222,81 +130,6 @@ footer {
 .c-heading {
     font-size: 2.5em;
 }
-
-/* STATE */
-.light:active,
-.dark:active,
-.light:hover,
-.dark:hover {
-    border: 2px solid white;
-    background: #182639;
-}
-
-.blue:hover,
-.blue:active {
-    background-color: #0e2235;
-}
-
-.d-carousel-btn:active
-.d-carousel-btn:hover {
-    color: whitesmoke;  
-}
-
-.carousel-active:active, 
-.carousel-active:hover {
-    background-color: #2056f5;  
-}
-
-.g-btn:hover,
-.g-btn:active {
-    border: 2px solid white;
-    background-color: #2056f5; 
-    color: whitesmoke;
-}
-
-.footer-list-item:hover,
-.footer-list-item:active {
-    text-decoration: underline;
-}
-
-/* THEME */
-
-
-
-.a-container {
-    background-color: #06216e;
-    background: linear-gradient(to bottom right, #06216e, #2056f5);
-    color: whitesmoke;
-}
-
-
-
-
-
-
-
-
-.b-triangle {
-    fill: #1949d3;
-}
-
-.b-gradient {
-    background-color: #06216e;
-    background: linear-gradient(to bottom right, #06216e, #2056f5);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.c-container {
-    background-color: #f4f8fc;
-    padding-bottom: 120px;
-}
-
-.pad-bottom {
-    padding-bottom: 30px;
-}
-
 
 .c-imgs {
     position: relative;
@@ -332,7 +165,6 @@ footer {
     position: absolute;
     font-size: 0.75em;
     padding: 5px 20px;
-    width: 200px;
     height: 85px;
     top: 150px;
     right: 0; 
@@ -341,15 +173,8 @@ footer {
 }
 
 
-.d-container {
-    text-align: center;
-    background-color: #0e2235; 
-}
+/*  */
 
-.d-header {
-    color: whitesmoke;
-    font-size: 2.4em;
-}
 
 .d-carousel-btns {
     height: 130px;
@@ -365,7 +190,6 @@ footer {
     background: none;
     font-size: 1em;
     cursor: pointer;
-    color: whitesmoke;
     font-weight: 400;
 }
 
@@ -408,19 +232,18 @@ footer {
     top: 150px;
     left: 350px;
     font-weight: 700;
-    color: whitesmoke;
     background: linear-gradient(to right, #fe942c 10%, #f12883, #8a3cf2);
     padding: 7px 14px;
     border-radius: 15px 15px 0 15px;
 }
 
-.e-container {
-    background-color: #f4f8fc;
-}
+
+/*  */
+
+
 
 .e-header {
     margin: 0;
-    text-align: center;
     padding-bottom: 50px;
     font-size: 2.2em;
 }
@@ -453,9 +276,137 @@ footer {
     height: 200px;
 }
 
+
+
+
+/*  */
+
+
+
+
+/* MODULE */
+
+.border-radius {
+    border-radius: 15px;
+}
+
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+
+.small-text{
+    font-size: 10px;
+    padding: 0px 10px;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.large-text {
+    font-size: 4em;
+}
+
+.extra-bold {
+    font-weight: 900;
+    font-size: 5rem;
+    padding-bottom: 0px;
+}
+
+.small-title {
+    font-size: 0.8rem;
+}
+
+.stats-bold {
+    font-size: 2em;
+}
+
+/* STATE */
+.light:active,
+.dark:active,
+.light:hover,
+.dark:hover {
+    border: 2px solid white;
+    background: #182639;
+}
+
+.blue:hover,
+.blue:active {
+    background-color: #0e2235;
+}
+
+
+
+.carousel-active:active, 
+.carousel-active:hover {
+    background-color: #2056f5;  
+}
+
+.d-carousel-btn:active,
+.d-carousel-btn:hover {
+    color: whitesmoke;  
+}
+
+.g-btn:hover,
+.g-btn:active {
+    border: 2px solid white;
+    background-color: #2056f5; 
+    color: whitesmoke;
+}
+
+.footer-list-item:hover,
+.footer-list-item:active {
+    text-decoration: underline;
+}
+
+/* THEME */
+
+
+
+.a-container {
+    background-color: #06216e;
+    background: linear-gradient(to bottom right, #06216e, #2056f5);
+}
+
+
+.b-triangle {
+    fill: #1949d3;
+}
+
+.b-gradient {
+    background-color: #06216e;
+    background: linear-gradient(to bottom right, #06216e, #2056f5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.c-container {
+    background-color: #f4f8fc;
+    padding-bottom: 120px;
+}
+
+.d-container {
+    background-color: #0e2235; 
+}
+
+.d-header {
+    font-size: 2.4em;
+}
+
+.e-container {
+    background-color: #f4f8fc;
+}
+
+
 .blue-bold {
     color: #2056f5;
-    font-weight: 700;
     font-size: 3em;
 }
 
@@ -468,18 +419,8 @@ footer {
 
 .carousel-h3 {
     font-size: 2em;
-    margin: 15px 0;
     line-height: 1em;
 }
-
-.carousel-p {
-    margin-bottom: 25px;
-}
-
-.carousel-p span {
-    font-weight: 700;
-}
-
 
 .f-image-left {
     border-radius: 100px 100px 0 100px;
@@ -554,9 +495,6 @@ footer {
     width: 250px;
 }
 
-.near-miss-small {
-    font-size: 0.8em;
-}
 
 .position-absolute-text {
     position: absolute;
@@ -569,19 +507,7 @@ footer {
     background-clip: padding-box;
 }
 
-.small-title {
-    font-size: 0.8rem;
-}
 
-.stats-bold {
-    font-size: 2em;
-}
-
-.extra-bold {
-    font-weight: 900;
-    font-size: 5rem;
-    padding-bottom: 0px;
-}
 
 .dashboard-border {
     border: 10px solid rgb(255,255,255, 0.5);
@@ -594,11 +520,7 @@ footer {
 .text-right,
 .text-left {
     position: absolute;
-    background-color: #01b5e2;;
-    width: 200px;
-    color: whitesmoke;
     font-size: 1.4rem;
-    font-weight: 700;
     line-height: 30px;
 }
 
@@ -671,9 +593,7 @@ footer {
     position: absolute;
     top: 290px;
     left: 0;
-    width: 200px;
     border-radius: 10px 10px 0 10px ;
-    text-align: center;
 }
 
 .g-text-2 {
@@ -682,7 +602,7 @@ footer {
     left: 250px;
     width: 250px;
     border-radius: 0 10px 10px 10px;
-    text-align: center;
+
 }
 
 .g-text-3 {
@@ -692,29 +612,16 @@ footer {
 
 }
 
-.g-heading {
-    color: whitesmoke;
-}
-
 .g-btn {
     background-color: #2056f5; 
-    color: whitesmoke;
-    font-weight: 700;
-}
-
-.store-logo {
-    width: 200px;
 }
 
 .footer-list {
-    list-style-type: none;
     padding: 0;
 }
 
 .footer-list-item {
-    font-size: 0.8em;
     padding-bottom: 3px;
-    list-style-type: none;
 }
 
 .footer-imgs {
@@ -723,13 +630,12 @@ footer {
 
 .teal-background {
     background-color: #01b5e2;
-    color: whitesmoke;
 }
 
 .dark {
     background-color: #182639;
 }
-
+ 
 .light {
     background-color: #ffffff;
     color: #000e00;
@@ -742,6 +648,12 @@ footer {
 .blue {
     display: inline-block;
     background-color: #2056f5;  
+}
+
+.ws {
     color: whitesmoke;
-    font-weight: 700;
+}
+
+.w-200 {
+    width: 200px;
 }
