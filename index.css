@@ -21,6 +21,11 @@ p {
     margin: 0;
 }
 
+footer {
+    background-color: #01b5e2;
+    color: whitesmoke;
+}
+
 /* LAYOUT */
 
 .a-nav-options {
@@ -691,6 +696,25 @@ p {
     background-color: #2056f5; 
     color: whitesmoke;
     font-weight: 700;
+}
+
+.store-logo {
+    width: 200px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-list-item {
+    font-size: 0.8em;
+    padding-bottom: 3px;
+    list-style-type: none;
+}
+
+.footer-imgs {
+    height: 100px;
 }
 
 .teal-background {
