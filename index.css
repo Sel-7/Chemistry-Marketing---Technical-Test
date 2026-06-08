@@ -243,7 +243,11 @@ p {
     background-color: #2056f5;  
 }
 
-
+.g-btn:hover {
+    border: 2px solid white;
+    background-color: #2056f5; 
+    color: whitesmoke;
+}
 
 
 /* THEME */
@@ -603,6 +607,95 @@ p {
 
 .f-text {
     height: 340px;
+}
+
+.g-container {
+    background-color: #192639;
+}
+
+.g-image {
+    width: 700px;
+    height: 475px;
+}
+
+.g-dashboard {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 600px;
+        outline: 1px solid white;
+    border: 10px solid rgb(255,255,255, 0.3);
+}
+
+.g-mobile {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+        outline: 1px solid white;
+    border: 10px solid rgb(255,255,255, 0.3);
+}
+
+.g-icon-1 {
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    color: #01b5e2;;
+}
+.g-icon-2 {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    color: #01b5e2;;
+}
+
+.g-icon-3 {
+    position: absolute;
+    top: 20px;
+    left: 475px;
+    background: linear-gradient(to right, #fe942c 10%, #f12883, #8a3cf2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.g-text-1 {
+    position: absolute;
+    top: 290px;
+    left: 0;
+    width: 200px;
+    border-radius: 10px 10px 0 10px ;
+    text-align: center;
+}
+
+.g-text-2 {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 250px;
+    border-radius: 0 10px 10px 10px;
+    text-align: center;
+}
+
+.g-text-3 {
+    position: absolute;
+    top: 0;
+    left: 365px;
+
+}
+
+.g-heading {
+    color: whitesmoke;
+}
+
+.g-btn {
+    background-color: #2056f5; 
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.teal-background {
+    background-color: #01b5e2;
+    color: whitesmoke;
 }
 
 .dark {
