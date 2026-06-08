@@ -224,36 +224,40 @@ footer {
 }
 
 /* STATE */
-
+.light:active,
+.dark:active,
+.light:hover,
 .dark:hover {
     border: 2px solid white;
     background: #182639;
 }
 
-.light:hover {
-    border: 2px solid white;
-    background: #182639;
-}
-
-
-.blue:hover {
+.blue:hover,
+.blue:active {
     background-color: #0e2235;
 }
 
+.d-carousel-btn:active
 .d-carousel-btn:hover {
     color: whitesmoke;  
 }
 
+.carousel-active:active, 
 .carousel-active:hover {
     background-color: #2056f5;  
 }
 
-.g-btn:hover {
+.g-btn:hover,
+.g-btn:active {
     border: 2px solid white;
     background-color: #2056f5; 
     color: whitesmoke;
 }
 
+.footer-list-item:hover,
+.footer-list-item:active {
+    text-decoration: underline;
+}
 
 /* THEME */
 
