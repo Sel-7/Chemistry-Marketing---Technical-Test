@@ -219,71 +219,30 @@ p {
 
 /* STATE */
 
- .underline{
-    position: relative;
-    text-decoration: none;
+.dark:hover {
+    border: 2px solid white;
+    background: #182639;
 }
 
- .underline::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
+.light:hover {
+    border: 2px solid white;
+    background: #182639;
 }
 
- .underline:hover::before{
-    transform: scaleX(1);
+
+.blue:hover {
+    background-color: #0e2235;
 }
 
-.underline-btn-dark{
-    position: relative; 
-    text-decoration: none;
+.d-carousel-btn:hover {
+    color: whitesmoke;  
 }
 
- .underline-btn-dark::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50%;
-    height: 2px;
-    bottom: 10px;
-    left: 50px;
-    background-color: #000;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
+.carousel-active:hover {
+    background-color: #2056f5;  
 }
 
- .underline-btn-dark:hover::before{
-    transform: scaleX(1);
-}
 
- .underline-btn{
-    position: relative;
-    text-decoration: none;
-}
-
- .underline-btn::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50%;
-    height: 2px;
-    bottom: 10px;
-    left: 47px;
-    background-color: #fff;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-}
-
- .underline-btn:hover::before{
-    transform: scaleX(1);
-}
 
 
 /* THEME */
@@ -390,9 +349,10 @@ p {
     margin:10px;
     border: none;
     background: none;
-    font-size: 0.8em;
+    font-size: 1em;
     cursor: pointer;
     color: whitesmoke;
+    font-weight: 400;
 }
 
 .d-carousel-content {
@@ -402,7 +362,7 @@ p {
 }
 
 .carousel-width {
-    width: 1080px;
+    width: 1280px;
     border-radius: 15px;
     background-color: #ffffff;
     margin: 0px auto;
@@ -544,4 +504,5 @@ p {
     display: inline-block;
     background-color: #2056f5;  
     color: whitesmoke;
+    font-weight: 700;
 }
