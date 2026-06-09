@@ -210,6 +210,17 @@ p {
     margin: 0px auto;
 }
 
+.carousel-indicators {
+    bottom: -60px;
+
+}
+
+.carousel-btn {
+    height: 10px !important;
+    width: 10px !important; 
+    border-radius: 50%;
+}
+
 .d-img {
     width: 540px;
 }
