@@ -223,6 +223,7 @@ p {
     border-radius: 50%;
 }
 
+
 .d-img {
     width: 540px;
 }
@@ -301,8 +302,13 @@ p {
     .a-templates,
     .f-image-left,
     .carousel-control-prev,
-    .carousel-control-next {
+    .carousel-control-next,
+    .desktop-testimonies {
         display: none;
+    }
+
+    #carouselTestimony {
+        display: block !important;
     }
 
     .e-card,
@@ -316,6 +322,9 @@ p {
     }
 }
 
+    #carouselTestimony {
+        display: none;
+    }
 
 /* MODULE */
 
@@ -661,10 +670,16 @@ p {
     height: 100px;
 }
 
+.grey {
+    background-color: grey !important;
+}
+
 .carousel-indicators button.active,
 .teal-background {
-    background-color: #01b5e2;
+    background-color: #01b5e2 !important;
 }
+
+
 
 .dark {
     background-color: #182639;
