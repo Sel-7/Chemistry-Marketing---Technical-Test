@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
     <link rel="stylesheet" href="index.css">
     <title>Notify</title> 
 </head>
@@ -146,35 +147,176 @@
     </section>
 
     <section class="d-container text-center d-flex pt-5">
-        <div class="container py-5 mb-5">
+        <div class="carousel-wrapper mx-auto d-flex pt-5 position-relative">
+            <div class="container py-5 mb-5">
             <div>
                 <h2 class="d-header ws">Why Notify is different to other safety management platforms</h2>
             </div>
             <div class="d-carousel-btns">
-                <button class="d-carousel-btn btn ws">Flexible and customisable</button>
-                <button class="d-carousel-btn btn ws">Purpose-built apps</button>
-                <button class="d-carousel-btn btn ws">Quick implementation time</button>
-                <button class="d-carousel-btn carousel-active blue fw-bold btn ws">AI Solutions that deliver value</button>
-                <button class="d-carousel-btn btn ws">A partnership approach</button>
+                <button 
+                    class="d-carousel-btn carousel-active blue fw-bold btn ws"
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="0">
+                    Flexible and customisable
+                </button>
+
+                <button 
+                    class="d-carousel-btn btn ws"
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="1">
+                    Purpose-built apps
+                </button>
+
+                <button                     
+                    class="d-carousel-btn btn ws"
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="2">
+                    Quick implementation time
+                </button>
+                <button                     
+                    class="d-carousel-btn btn ws"
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="3">
+                    AI Solutions that deliver value
+                </button>
+                <button                     
+                    class="d-carousel-btn btn ws"
+                    data-bs-target="#carouselExampleIndicators" 
+                    data-bs-slide-to="4">
+                    A partnership approach
+                </button>
             </div>
-            <div class="d-flex carousel-width align-c px-3 py-5 justify-content-between">
-                <div class="d-carousel-content ">
-                    <h2 class="carousel-header mb-3">AI Solutions that deliver value</h2>
-                    <h3 class="carousel-h3 mb-4">No hype, no jargon. Just AI innovation that helps you in your role</h3>
-                    <p class="mb-5 ">
-                        Notify's <span class="fw-bold">safety management platform</span> uses AI to identify root causes, automate manual tasks like writing incident summaries, 
-                        and enhance decision-making to reduce risk, giving you meaningful insights that you can act on. You get practical tools that speed up your work 
-                        and help you improve the impact of your risk management strategy. 
-                    </p>
-                    <p class="blue btn fw-bold underline-btn ws"><a href="#">Learn more</a></p>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex carousel-width align-c px-3 py-5 justify-content-between">
+                        <div class="d-carousel-content ">
+                            <h2 class="carousel-header mb-3">Flexible and customisable</h2>
+                            <h3 class="carousel-h3 mb-4">No hype, no jargon. Just AI innovation that helps you in your role</h3>
+                            <p class="mb-5 ">
+                                Notify's <span class="fw-bold">safety management platform</span> uses AI to identify root causes, automate manual tasks like writing incident summaries, 
+                                and enhance decision-making to reduce risk, giving you meaningful insights that you can act on. You get practical tools that speed up your work 
+                                and help you improve the impact of your risk management strategy. 
+                            </p>
+                            <p class="blue btn fw-bold underline-btn ws"><a href="#">Learn more</a></p>
+                        </div>
+                        <div class="d-img d-img-width  relative" role="img" aria-label="A woman working in the office using the AI company spark to carry out an AI analysis">
+                            <div >
+                                <p class="d-img-text ws">AI analysis</p>
+                                <img class="d-img-logo " src="https://docs.spark.fi/logo-color-black.svg" >
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="d-img d-img-width  relative" role="img" aria-label="A woman working in the office using the AI company spark to carry out an AI analysis">
-                    <div >
-                        <p class="d-img-text ws">AI analysis</p>
-                        <img class="d-img-logo " src="https://docs.spark.fi/logo-color-black.svg" >
+
+                <div class="carousel-item">
+                    <div class="d-flex carousel-width align-c px-3 py-5 justify-content-between">
+                        <div class="d-carousel-content">
+                            <h2 class="carousel-header mb-3">Purpose-built apps</h2>
+                            <h3 class="carousel-h3 mb-4">No hype, no jargon. Just AI innovation that helps you in your role</h3>
+                            <p class="mb-5 ">
+                                Notify's <span class="fw-bold">safety management platform</span> uses AI to identify root causes, automate manual tasks like writing incident summaries, 
+                                and enhance decision-making to reduce risk, giving you meaningful insights that you can act on. You get practical tools that speed up your work 
+                                and help you improve the impact of your risk management strategy. 
+                            </p>
+                            <p class="blue btn fw-bold underline-btn ws"><a href="#">Learn more</a></p>
+                        </div>
+                        <div class="d-img d-img-width  relative" role="img" aria-label="A woman working in the office using the AI company spark to carry out an AI analysis">
+                            <div >
+                                <p class="d-img-text ws">AI analysis</p>
+                                <img class="d-img-logo " src="https://docs.spark.fi/logo-color-black.svg" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex carousel-width align-c px-3 py-5 justify-content-between">
+                        <div class="d-carousel-content">
+                            <h2 class="carousel-header mb-3">Quick implementation time</h2>
+                            <h3 class="carousel-h3 mb-4">No hype, no jargon. Just AI innovation that helps you in your role</h3>
+                            <p class="mb-5 ">
+                                Notify's <span class="fw-bold">safety management platform</span> uses AI to identify root causes, automate manual tasks like writing incident summaries, 
+                                and enhance decision-making to reduce risk, giving you meaningful insights that you can act on. You get practical tools that speed up your work 
+                                and help you improve the impact of your risk management strategy. 
+                            </p>
+                            <p class="blue btn fw-bold underline-btn ws"><a href="#">Learn more</a></p>
+                        </div>
+                        <div class="d-img d-img-width  relative" role="img" aria-label="A woman working in the office using the AI company spark to carry out an AI analysis">
+                            <div >
+                                <p class="d-img-text ws">AI analysis</p>
+                                <img class="d-img-logo " src="https://docs.spark.fi/logo-color-black.svg" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex carousel-width align-c px-3 py-5 justify-content-between">
+                        <div class="d-carousel-content">
+                            <h2 class="carousel-header mb-3">AI solutions that deliver value</h2>
+                            <h3 class="carousel-h3 mb-4">No hype, no jargon. Just AI innovation that helps you in your role</h3>
+                            <p class="mb-5 ">
+                                Notify's <span class="fw-bold">safety management platform</span> uses AI to identify root causes, automate manual tasks like writing incident summaries, 
+                                and enhance decision-making to reduce risk, giving you meaningful insights that you can act on. You get practical tools that speed up your work 
+                                and help you improve the impact of your risk management strategy. 
+                            </p>
+                            <p class="blue btn fw-bold underline-btn ws"><a href="#">Learn more</a></p>
+                        </div>
+                        <div class="d-img d-img-width  relative" role="img" aria-label="A woman working in the office using the AI company spark to carry out an AI analysis">
+                            <div >
+                                <p class="d-img-text ws">AI analysis</p>
+                                <img class="d-img-logo " src="https://docs.spark.fi/logo-color-black.svg" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex carousel-width align-c px-3 py-5 justify-content-between">
+                        <div class="d-carousel-content">
+                            <h2 class="carousel-header mb-3">A partnership approach</h2>
+                            <h3 class="carousel-h3 mb-4">No hype, no jargon. Just AI innovation that helps you in your role</h3>
+                            <p class="mb-5 ">
+                                Notify's <span class="fw-bold">safety management platform</span> uses AI to identify root causes, automate manual tasks like writing incident summaries, 
+                                and enhance decision-making to reduce risk, giving you meaningful insights that you can act on. You get practical tools that speed up your work 
+                                and help you improve the impact of your risk management strategy. 
+                            </p>
+                            <p class="blue btn fw-bold underline-btn ws"><a href="#">Learn more</a></p>
+                        </div>
+                        <div class="d-img d-img-width  relative" role="img" aria-label="A woman working in the office using the AI company spark to carry out an AI analysis">
+                            <div >
+                                <p class="d-img-text ws">AI analysis</p>
+                                <img class="d-img-logo " src="https://docs.spark.fi/logo-color-black.svg" >
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+        </div>
+
+        </div>
+
+            <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active mt-5" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="mt-5" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="mt-5" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="mt-5" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="mt-5" aria-label="Slide 5"></button>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
