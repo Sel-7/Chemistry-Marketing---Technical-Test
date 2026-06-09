@@ -186,7 +186,6 @@ p {
 .d-carousel-btns {
     min-height: 130px;
     max-width: 960px;
-    display: block;
     margin: 30px auto;
 }
 
@@ -285,6 +284,9 @@ p {
     height: 60px;
 }
 
+.e-card-quote {
+    min-height: 210px;
+}
 
 
 /*  */
@@ -297,7 +299,9 @@ p {
     .f-gradient-bg,
     .position-absolute-left,
     .a-templates,
-    .f-image-left {
+    .f-image-left,
+    .carousel-control-prev,
+    .carousel-control-next {
         display: none;
     }
 
