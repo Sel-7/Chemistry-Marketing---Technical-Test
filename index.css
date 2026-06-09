@@ -632,6 +632,7 @@ p {
     height: 100px;
 }
 
+.carousel-indicators button.active,
 .teal-background {
     background-color: #01b5e2;
 }
@@ -651,7 +652,8 @@ p {
 
 .blue {
     display: inline-block;
-    background-color: #2056f5;  
+    background-color: #2056f5; 
+     
 }
 
 .ws {
