@@ -304,6 +304,11 @@ p {
     .e-card,
     .e-card-quote {
         height: auto;
+        min-height: 310px;
+    }
+
+    h1 {
+        font-size: 3em !important;
     }
 }
 
