@@ -39,10 +39,6 @@ p {
     padding: 90px 0;
 }
 
-.a-hero-text-container {
-    padding-right: 75px;
-}
-
 .a-hero-btn {
     width: 400px;
     margin-bottom: 30px;
@@ -85,7 +81,9 @@ p {
 .d-carousel-btns,
 .d-carousel-content,
 .d-img,
-.carousel-wrapper {
+.carousel-wrapper,
+.e-card,
+.e-card-stat {
     width: 100%;
 }
 
@@ -186,7 +184,7 @@ p {
 
 
 .d-carousel-btns {
-    height: 130px;
+    min-height: 130px;
     max-width: 960px;
     display: block;
     margin: 30px auto;
@@ -270,8 +268,7 @@ p {
 
 .e-card {
     background-color: white;
-    width: 350px;
-    height: 500px;
+    max-width: 350px;
     border-radius: 15px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -284,18 +281,9 @@ p {
     height: 30px;
 }
 
-.e-card-stat {
-    width: 100%;
-}
-
 .e-card-logo {
     height: 60px;
 }
-
-.e-card-quote {
-    height: 200px;
-}
-
 
 
 
@@ -313,7 +301,10 @@ p {
         display: none;
     }
 
-    
+    .e-card,
+    .e-card-quote {
+        height: auto;
+    }
 }
 
 
