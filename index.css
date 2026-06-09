@@ -302,6 +302,19 @@ p {
 /*  */
 
 
+@media (max-width:768px) {
+    .d-img,
+    .c-imgs,
+    .g-image,
+    .f-gradient-bg,
+    .position-absolute-left,
+    .a-templates,
+    .f-image-left {
+        display: none;
+    }
+
+    
+}
 
 
 /* MODULE */
